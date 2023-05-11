@@ -1,7 +1,7 @@
 # Setup for new PC 
 
 _updated 2023/02/14_ 
-
+ 
 ## Git setup
   ```
   $ git config --global user.name "Your name here"
@@ -34,6 +34,16 @@ _updated 2023/02/14_
   $ git submodule update  
   ```
   
+# Git stash
+## Git stash include new file 
+  ```
+  $ git stash --include-untracked -m "Message for remember"
+  ##Using flag --include-untracked to stash new file 
+  $ git stash list  
+  ##show stash list to view stash want to pop
+  $ git stash@{0}
+  ##pop the stash you want
+  ```
   
 
 
