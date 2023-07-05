@@ -44,6 +44,15 @@ _updated 2023/02/14_
   $ git stash@{0}
   ##pop the stash you want
   ```
+# Git trick 
+## Check changed file 
+  ```
+    Check numbers of files changed
+    git diff origin/develop --name-only | wc -l
+    Check numbers of *.spec.ts* files changed
+    git diff origin/develop --name-only | grep '\.spec\.ts' | wc -l
+  ```
+
   
 
 
