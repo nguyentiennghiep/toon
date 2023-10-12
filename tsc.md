@@ -39,6 +39,12 @@
     }
     ```
 - Extract<Type, Union> : ngược với Exclude<UnionType, ExcludedMembers>
+- NonNullable<Type> : tạo ra một kiểu bỏ hêt `null` hay `undefined` trong kiểu `Type`
+- Parameters<Type> and ReturnType<Type> : params and return , note có thể sử dùng `Parameters<typeof Func>` và `ReturnType<typeof Func>` để lấy type của params và return
+- 
+
+
+
 
 
 
