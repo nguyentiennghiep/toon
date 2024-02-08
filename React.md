@@ -1,4 +1,12 @@
 # React
+## Tricks 
+### Check render 
+- If you want to see logs only when the component rerenders, the simplest way is to make a useEffect hook without a dependency array, this will make it run after each component render:
+  ```
+  useEffect(() => {
+  console.log("component rerendered");
+  });
+  ```
 ## Hooks
 ### useEffect
 -  Có thể tạo 1 custom hook ,chỉ cần chú ý bắt đầu bằng từ use , hãy nhớ là mỗi lần gọi hook sẽ là các hành động khác nhau dù có là dùng chung custom hooks
